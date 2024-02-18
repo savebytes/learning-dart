@@ -24,5 +24,6 @@ class Student {
 }
 
 void main() {
+  // ignore: unused_local_variable
   Student std = new Student("ANKIT", 19);
 }

@@ -37,10 +37,10 @@
 // Multilevel Inheritance
 
 // class Human {
-  void walk() {
-    print("A human can walk");
-  }
-}
+//   void walk() {
+//     print("A human can walk");
+//   }
+// }
 
 // class Man extends Human {
 //   void areStrong() {
@@ -66,29 +66,29 @@
 // parent class
 
 class Person {
-  void dispName(String name){
+  void dispName(String name) {
     print(name);
   }
 
-  void dispAge(int age){
+  void dispAge(int age) {
     print(age);
   }
 }
 
-class Peter extends Person{
-  void dispBranch(String nationality){
+class Peter extends Person {
+  void dispBranch(String nationality) {
     print(nationality);
   }
 }
 
 // Derived class created from another derived class
-class James extends Person{
-  void result(String result){
+class James extends Person {
+  void result(String result) {
     print(result);
   }
 }
 
-void main(){
+void main() {
   // creating object of james class
   James j = new James();
   j.dispName("James");
@@ -101,4 +101,3 @@ void main(){
   p.dispAge(30);
   p.dispBranch("Computer Science");
 }
-
